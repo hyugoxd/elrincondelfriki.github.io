@@ -1,11 +1,11 @@
-
 head {
     align-items: start;
 }
 
 body{
     font-family: sans-serif;
-    background-color: rgb(39, 38, 38);
+    background-color: rgb(255, 255, 255);
+    background-image: url(fotos\d9bad43dbbc97d97ca548a5b04c7336e.jpg)
 }
 
 .page-header{
@@ -49,4 +49,10 @@ header nav .boxit{
 
 .logo{
     margin-left: 15px;
+}
+
+@media only screen and (max-width:500px){
+    .menu, .main, .right{
+        width: 100%;
+    }
 }
