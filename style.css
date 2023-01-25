@@ -4,8 +4,7 @@ head {
 
 body{
     font-family: sans-serif;
-    background-color: rgb(255, 255, 255);
-    background-image: url(fotos\d9bad43dbbc97d97ca548a5b04c7336e.jpg)
+    background-color: rgba(228, 228, 228, 0.678);
 }
 
 .page-header{
@@ -15,7 +14,7 @@ body{
 #head{
     align-items: center;
     justify-content: space-between;
-    height: 63px;
+    height: 60px;
     background-color: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
@@ -48,7 +47,7 @@ header nav .boxit{
 }
 
 .logo{
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 @media only screen and (max-width:500px){
