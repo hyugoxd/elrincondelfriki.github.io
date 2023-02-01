@@ -58,6 +58,14 @@ header nav .boxit{
     font-size: 20px;
 }
 
+.pic{
+    display: flex;
+    position: relative;
+    flex-flow: row;
+    width: 50%;
+    height: 30%;
+}
+
 @media only screen and (max-width:500px){
     .menu, .main, .right{
         width: 100%;
