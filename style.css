@@ -3,28 +3,37 @@ head {
 }
 
 body{
-    font-family: sans-serif;
-    background-color: rgba(228, 228, 228, 0.678);
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(255, 255, 255, 0.925);
 }
 
 .page-header{
     display: flex;
+    align-items: center;
+    max-block-size: 100px;
 }
 
 #head{
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+    height: 65px;
     background-color: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
     z-index: 100;
 }
 
-header nav .boxit{
+.logo{
+    margin-bottom: 10px;
+    max-width: 200px;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+header nav.navbar{
     align-items: center;
-    top: 30%;
-    left: 30%;
+    top: 50%;
+    left: 50%;
 }
 
 .navbar{
@@ -35,39 +44,55 @@ header nav .boxit{
 .navbar a{
     display: block;
     padding-left: 23px;
-    color: black;
+    color: rgba(53, 52, 52, 0.87);
     text-decoration: none;
-    font-family: 'sans-serif', fantasy;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-size: 30px;
     transition: all .3s;
 }
+
 .navbar a:hover{
-    color: blueviolet;
+    color: rgba(137, 43, 226, 0.849);
 }
 
-.logo{
-    margin-left: 0px;
+.lmdshow{
+    margin-top: 35px;
 }
 
 .caption{
-    display: block;
-    padding-left: 10px;
+    display: flex;
+    padding-left: 0px;
     color: black;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 
 .pic{
     display: flex;
-    position: relative;
-    flex-flow: row;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-left: 50px;
     width: 50%;
     height: 30%;
 }
 
-@media only screen and (max-width:500px){
-    .menu, .main, .right{
-        width: 100%;
-    }
+.pie{
+    display: flex;
+    margin-top: 470px;
+}
+
+#mierdon{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#mierdon article{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-left: 20px;
 }
