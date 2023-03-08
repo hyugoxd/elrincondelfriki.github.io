@@ -4,13 +4,14 @@ head {
 
 body{
     font-family: 'Oswald', sans-serif;
-    background-color: rgba(255, 255, 255, 0.925);
+    background-color: rgba(0, 0, 0, 0.527);
 }
 
 .page-header{
     display: flex;
     align-items: center;
     max-block-size: 100px;
+    border-radius: 50px;
 }
 
 #head{
@@ -24,9 +25,8 @@ body{
 }
 
 .logo{
-    margin-bottom: 10px;
-    max-width: 200px;
-    max-height: 50px;
+    margin-bottom: 25px;
+    padding-left: 50px;
     overflow: hidden;
 }
 
@@ -57,7 +57,8 @@ header nav.navbar{
 }
 
 .lmdshow{
-    margin-top: 35px;
+    margin-top: 45px;
+    padding-left: 750px;
 }
 
 .caption{
@@ -78,9 +79,28 @@ header nav.navbar{
     height: 30%;
 }
 
-.pie{
+.pie1{
     display: flex;
     margin-top: 470px;
+    transform: translateX(-250px);
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.pie2{
+    display: flex;
+    margin-top: 470px;
+    transform: translateX(-220px);
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.pie3{
+    display: flex;
+    margin-top: 470px;
+    transform: translateX(-380px);
+    font-family: 'Oswald', sans-serif;
+    color: black;
 }
 
 #mierdon{
@@ -95,4 +115,20 @@ header nav.navbar{
     align-items: start;
     justify-content: center;
     padding-left: 20px;
+}
+
+#caca1{
+    transform: translateX(50px);
+}
+
+#caca2{
+    transform: translateX(50px)
+}
+
+#caca3{
+    transform: translateX(-270px)
+}
+
+.putote{
+    height: 400px;
 }
